@@ -1,0 +1,44 @@
+.img-card {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.setCard {
+  max-width: 304px;
+  border-radius: 10px;
+  border: 2px solid rgb(198, 221, 221);
+  box-shadow:rgb(58, 64, 62);
+  position: relative;
+}
+.paraDesign{
+padding: 8px;
+margin-bottom: 25px;
+}
+.nameDesign{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.timeDesign{
+    font-size: 18px;
+ 
+    font-weight: 600;
+}
+.btn{
+    width: 100%;
+    border: 2px solid rgb(7, 90, 191);
+    border-radius: 8px;
+    background: rgb(42, 128, 233);
+    color: aliceblue;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0px;
+}
+.btn:hover{
+    background: rgb(7, 90, 191);
+    color: aliceblue;
+}

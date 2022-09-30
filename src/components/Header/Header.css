@@ -1,11 +1,15 @@
 .heading-style{
     color: rgb(43, 125, 226);
-    margin-left: 100px;
+    margin-left: 10%;
     margin-top: 50px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-{
-    width: 50px;
+.activityTitle{
+    margin-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
