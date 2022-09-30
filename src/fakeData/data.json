@@ -1,0 +1,40 @@
+[
+    {
+      "id": "6335c3286385e4420a182568",
+      "picture": "https://unsplash.com/photos/HlNcigvUi4Q",
+      "name": "Breakfast",
+      "info": "Breakfast is often called 'the most important meal of the day', and for good reason. As the name suggests, breakfast breaks the overnight fasting period. It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health."
+    },
+    {
+      "id": "6335c3286bdd28cc51effb81",
+      "picture": "https://unsplash.com/photos/jUPOXXRNdcA",
+      "name": "Lunch",
+      "info": "Lunch is a meal eaten around the middle of the day. It is commonly the second meal of the day, after breakfast, and varies in size by culture and region."
+    },
+    {
+      "id": "6335c3282f9bfc53cb773b72",
+      "picture": "https://unsplash.com/photos/fb0_wj2MZk4",
+      "name": "Dinner",
+      "info": "Dinner usually refers to what is in many Western cultures the largest and most formal meal of the day, which is eaten in the evening. Historically, the largest meal used to be eaten around midday, and called dinner."
+    },
+    {
+      "id": "6335c3289807477b3f15b814",
+      "picture": "https://unsplash.com/photos/nzyzAUsbV0M",
+      "name": "Coffee Time",
+      "info": "Coffee is a drink prepared from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. It is the most popular hot drink in the world. Seeds of the Coffea plant's fruits are separated to produce unroasted green coffee beans."
+    },
+    {
+        "id": "6335c3289807477b3f15b814",
+        "picture": "https://unsplash.com/photos/7cRBG4nQtKs",
+        "name": "Snacks",
+        "info": "A snack is a small portion of food generally eaten between meals. Snacks come in a variety of forms including packaged snack foods and other processed foods, as well as items made from fresh ingredients at home."
+    },
+    {
+      "id": "6335c3284a539a7c36564430",
+      "picture": "https://unsplash.com/photos/qp7WA8AV2x0",
+      "name": "Tiffin",
+      "info": "Tiffin is an Indian English word for a type of meal. It refers to a light breakfast or a light tea-time meal at about 3 p.m., consisting of typical tea-time foods. In certain parts of India, it can also refer to the midday luncheon or, in some regions of the Indian subcontinent, a between-meal snack."
+    }
+  ]
+
+  // https://mocki.io/v1/127994b9-4305-4272-820b-6651ac2518f7

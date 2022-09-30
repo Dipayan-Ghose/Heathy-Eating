@@ -1,0 +1,38 @@
+[
+    {
+      "id": "6335c3286385e4420a182568",
+      "picture": "https://unsplash.com/photos/HlNcigvUi4Q",
+      "name": "Breakfast",
+      "info": "female"
+    },
+    {
+      "id": "6335c3286bdd28cc51effb81",
+      "picture": "https://unsplash.com/photos/jUPOXXRNdcA",
+      "name": "Lunch",
+      "gender": "male"
+    },
+    {
+      "id": "6335c3282f9bfc53cb773b72",
+      "picture": "https://unsplash.com/photos/fb0_wj2MZk4",
+      "name": "Dinner",
+      "gender": "male"
+    },
+    {
+      "id": "6335c3289807477b3f15b814",
+      "picture": "https://unsplash.com/photos/nzyzAUsbV0M",
+      "name": "Coffee Time",
+      "gender": "female"
+    },
+    {
+        "id": "6335c3289807477b3f15b814",
+        "picture": "https://unsplash.com/photos/7cRBG4nQtKs",
+        "name": "Snaks",
+        "gender": "female"
+    },
+    {
+      "id": "6335c3284a539a7c36564430",
+      "picture": "https://unsplash.com/photos/qp7WA8AV2x0",
+      "name": "Tiffin",
+      "gender": "male"
+    }
+  ]

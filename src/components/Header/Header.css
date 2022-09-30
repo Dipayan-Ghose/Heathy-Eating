@@ -1,0 +1,11 @@
+.heading-style{
+    color: rgb(43, 125, 226);
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+{
+    width: 50px;
+}
