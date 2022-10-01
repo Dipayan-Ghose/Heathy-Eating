@@ -64,3 +64,26 @@
     background-color: rgb(164, 207, 243);
     cursor: pointer;
 }
+.timeDesign{
+    margin-top: 5%;
+    border: 1px solid rgb(204, 216, 238);
+    border-radius: 10px;
+    padding: 12px;
+    background-color: aliceblue;
+    
+}
+span{
+    margin-left: 10%;
+}
+.btnDesign{
+    margin-top: 15%;
+    width: 100%;
+    border: 2px solid rgb(7, 90, 191);
+    border-radius: 8px;
+    background: rgb(42, 128, 233);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    padding: 12px;
+}

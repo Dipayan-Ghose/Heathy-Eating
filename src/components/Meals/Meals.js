@@ -53,6 +53,18 @@ const Meals = () => {
                 <h5>50s</h5>
               </div>
             </div>
+            <div>
+              <h4 className='breakText'>Activity Details</h4>
+              <div className='timeDesign'>
+                <h5>Eating Time <span id='eatingTime'>20min</span></h5>
+              </div>
+              <div className='timeDesign'>
+                <h5>Break Time <span id='breakTime'>10s</span></h5>
+              </div>
+            </div>
+            <div >
+              <button className='btnDesign'>Activity Completed</button>
+            </div>
 
 
 
