@@ -5,8 +5,11 @@ import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 const Meals = () => {
+  
     const [meals, setMeals]= useState([]);
     const [time, setTime]= useState([]);
+    const [bTime, setbTime]= useState(0);
+
     const notify = () => toast("Congratuations! You're done.",{ position:"top-center", autoClose:2000
    });
 
@@ -28,7 +31,18 @@ const Meals = () => {
         timeCount=timeCount+ parseInt(food.time) ;
     }
     
+    const pushtime=(id)=>{
+      // const newPush=[...bTime,id];
+      setbTime(id);
+      localStorage.setItem('bTime', JSON.stringify(bTime));
+    };
 
+    useEffect(()=>{
+     const items=JSON.parse(localStorage.getItem('bTime'));
+     if(items){
+      setbTime(items);
+     }
+    },[]);
 
 
     return (
@@ -67,11 +81,11 @@ const Meals = () => {
             <div>
               <h5 className='breakText'>Add A Break</h5>
               <div className='breakTime'>
-                {/* <h5 onClick={breakClick}>10s</h5>
-                <h5 onClick={breakClick}>20s</h5>
-                <h5 onClick={breakClick}>30s</h5>
-                <h5 onClick={breakClick}>40s</h5>
-                <h5 onClick={breakClick}>50s</h5> */}
+                <button onClick={()=>pushtime(10)} className='btnBreak'>10s</button>
+                <button onClick={()=>pushtime(20)} className='btnBreak'>20s</button>
+                <button onClick={()=>pushtime(30)} className='btnBreak'>30s</button>
+                <button onClick={()=>pushtime(40)} className='btnBreak'>40s</button>
+                <button onClick={()=>pushtime(50)} className='btnBreak'>50s</button>
               </div>
             </div>
             <div>
@@ -80,7 +94,7 @@ const Meals = () => {
                 <h5>Eating Time <span id='eatingTime'>{timeCount}min</span></h5>
               </div>
               <div className='designTime'>
-                <h5>Break Time <span id='breakTime'>{}s</span></h5>
+                <h5>Break Time <span id=''>{bTime}s</span></h5>
               </div>
             </div>
             <div >
