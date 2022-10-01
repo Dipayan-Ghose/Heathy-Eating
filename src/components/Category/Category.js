@@ -10,9 +10,9 @@ const Category = (props) => {
             <div className='paraDesign'>
                  <p className='nameDesign'>{name}</p>
                  <p>{info}</p>
-                 <p className='timeDesign'>Time Required: {time}</p>
+                 <p className='timeDesign'>Time Required: {time}min</p>
             </div>
-            <button className='btn'>Add To List</button>
+            <button onClick={()=>props.displayItems(props.meal)} className='btn'>Add To List</button>
         </div>
     );
 };

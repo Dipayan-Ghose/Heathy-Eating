@@ -3,15 +3,29 @@ import "./Meals.css";
 import Category from '../Category/Category';
 const Meals = () => {
     const [meals, setMeals]= useState([]);
+    const [time, setTime]= useState([]);
 
     useEffect( () =>{
-        fetch('https://mocki.io/v1/d07a27c7-9060-435c-a839-e5196f3a0b4e')
+        fetch('https://mocki.io/v1/2231789a-5e1c-47a4-b109-a1d2f369e16e')
         .then(res => res.json())
         .then(data => setMeals(data))
     }, []);
 
-    const displayItems= () =>{
+    const displayItems= (meal) =>{
+      // console.log(meal);
+      const newTime=[...time,meal];
+      setTime(newTime);   
     }
+
+    let timeCount= 0;
+    for (const food of time){
+      // console.log(food.time);
+        timeCount=timeCount+ parseInt(food.time) ;
+    }
+    
+
+
+
     return (
         <div>
         <div className='setPage'>
@@ -19,7 +33,9 @@ const Meals = () => {
             {
                 meals.map(meal=> <Category 
                     key={meal.id}
-                    meal={meal}></Category>)
+                    meal={meal}
+                    displayItems={displayItems}
+                    ></Category>)
             }
           </div>
           <div className='function'>
@@ -46,20 +62,20 @@ const Meals = () => {
             <div>
               <h5 className='breakText'>Add A Break</h5>
               <div className='breakTime'>
-                <h5>10s</h5>
-                <h5>20s</h5>
-                <h5>30s</h5>
-                <h5>40s</h5>
-                <h5>50s</h5>
+                {/* <h5 onClick={breakClick}>10s</h5>
+                <h5 onClick={breakClick}>20s</h5>
+                <h5 onClick={breakClick}>30s</h5>
+                <h5 onClick={breakClick}>40s</h5>
+                <h5 onClick={breakClick}>50s</h5> */}
               </div>
             </div>
             <div>
               <h4 className='breakText'>Activity Details</h4>
-              <div className='timeDesign'>
-                <h5>Eating Time <span id='eatingTime'>20min</span></h5>
+              <div className='designTime'>
+                <h5>Eating Time <span id='eatingTime'>{timeCount}min</span></h5>
               </div>
-              <div className='timeDesign'>
-                <h5>Break Time <span id='breakTime'>10s</span></h5>
+              <div className='designTime'>
+                <h5>Break Time <span id='breakTime'>{}s</span></h5>
               </div>
             </div>
             <div >
