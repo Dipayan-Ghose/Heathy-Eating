@@ -1,9 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import "./Meals.css";
 import Category from '../Category/Category';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 const Meals = () => {
     const [meals, setMeals]= useState([]);
     const [time, setTime]= useState([]);
+    const notify = () => toast("Congratuations! You're done.",{ position:"top-center", autoClose:2000
+   });
 
     useEffect( () =>{
         fetch('https://mocki.io/v1/2231789a-5e1c-47a4-b109-a1d2f369e16e')
@@ -79,7 +84,7 @@ const Meals = () => {
               </div>
             </div>
             <div >
-              <button className='btnDesign'>Activity Completed</button>
+              <button  onClick={notify} className='btnDesign'>Activity Completed</button>
             </div>
 
 
@@ -87,6 +92,7 @@ const Meals = () => {
 
           </div>
         </div>
+        <ToastContainer />
         </div>
     );
 };
