@@ -43,6 +43,20 @@ const Meals = () => {
               <h4>25 yrs</h4>Age
               </div>
             </div>
+            <div>
+              <h5 className='breakText'>Add A Break</h5>
+              <div className='breakTime'>
+                <h5>10s</h5>
+                <h5>20s</h5>
+                <h5>30s</h5>
+                <h5>40s</h5>
+                <h5>50s</h5>
+              </div>
+            </div>
+
+
+
+
           </div>
         </div>
         </div>

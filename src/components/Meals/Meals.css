@@ -40,3 +40,27 @@
     padding: 10px;
     background-color: aliceblue;
 }
+.breakText{
+    margin-top: 15%;
+    text-align: center;
+}
+.breakTime{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    margin-top: 1%;
+    border: 1px solid rgb(204, 216, 238);
+    border-radius: 10px;
+    padding: 12px;
+    background-color: aliceblue;
+}
+.breakTime h5{
+    border: 1px solid rgb(161, 161, 243);
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+.breakTime h5:hover{
+    background-color: rgb(164, 207, 243);
+    cursor: pointer;
+}
