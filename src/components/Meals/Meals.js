@@ -107,6 +107,8 @@ const Meals = () => {
           </div>
         </div>
         <ToastContainer />
+        <hr></hr>
+
         </div>
     );
 };
